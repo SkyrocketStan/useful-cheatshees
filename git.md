@@ -27,3 +27,8 @@ alias.cm=commit -m
 
 4. git config list (git gl)
     > $ git config --global alias.gl 'config --global -l'
+
+
+
+## Global .gitignore
+    > git config --global core.excludesfile ~/.globalignore
