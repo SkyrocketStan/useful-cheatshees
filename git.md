@@ -32,3 +32,16 @@ alias.cm=commit -m
 
 ## Global .gitignore
     > git config --global core.excludesfile ~/.globalignore
+
+
+## Remove from git
+
+#### Remove directory from Git but NOT local
+```
+git rm -r --cached <folder_name>
+```
+
+#### Remove directory from Git and local
+```
+git rm -r one-of-the-directories // This deletes from filesystem
+```
