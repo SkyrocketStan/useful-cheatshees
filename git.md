@@ -1,4 +1,4 @@
-
+#git 
 ## Git aliases
 
 To see all your aliases, list your configuration with git config:
